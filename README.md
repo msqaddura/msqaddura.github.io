@@ -1,2 +1,0 @@
-# msqaddura.github.io
-Portfolio
