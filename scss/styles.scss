@@ -448,7 +448,8 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid $border;
+    // border-bottom: 1px solid $border;
+    background-color:black;
 
     h2 {
         color: $heading;
@@ -653,6 +654,12 @@ footer {
 
 .project-image {
     float: left;
+    
+    img {
+        width:300px;
+        height:300px;
+        background-color: darken($base-color,10%)
+    }
 }
 
 .project-info {
