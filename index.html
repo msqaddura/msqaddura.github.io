@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/printer.css" media="print" rel="stylesheet">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
             <li>
                 <a href="#awards">Awards</a>
             </li>
-            <li>
+            <li class="d-print-none">
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -53,7 +54,7 @@
         <div id="lead-content">
             <h1>Mohamad Qaddura</h1>
             <h2>Senior Software Engineer & Game Developer</h2>
-            <a target="_blank"
+            <a class="d-print-none" target="_blank"
                 href="https://docs.google.com/document/d/15S3gxWCf0oZ0Vguxsh4I8im8iZVARU8mHn5KYBKe3uo/edit?usp=sharing"
                 class="btn-rounded-white">View Resume</a>
         </div>
@@ -61,7 +62,7 @@
 
         <div id="lead-overlay"></div>
 
-        <div id="lead-down">
+        <div id="lead-down" class="d-print-none">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
@@ -95,21 +96,47 @@ Experienced in <b>Frontend Software Architecture & Design</b> with enthusiasm to
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
+            <li class="team">Software Architecture</li>
+            <li class="team">Software Design Patterns</li>
+            <li class="team">Micro-Frontends</li>
+            <li class="team">Design System</li>
+            <li class="team">UI/UX</li>
+            <li class="team">Figma</li>
+            <li class="team">Agile Methodologies</li>
+            <li class="team">Unit Test</li>
+            <li class="team">e2e</li>
+
             <li class="language">JavaScript</li>
             <li class="language">ES6</li>
             <li class="language">Typescript</li>
             <li class="language">Python</li>
             <li class="eco">Node.js</li>
+            <li class="framework">NestJS</li>
+
+            <li class="tool">Webpack</li>
+            <li class="tool">Nx</li>
+            <li class="tool">Babel</li>
             
             <li class="framework">Angular</li>
             <li class="extension">RxJS</li>
             <li class="library">React</li>
             <li class="library">Redux</li>
             <li class="library">Vue</li>
+            <li class="extension">Web Components</li>
+            <li class="library">Storybook</li>
+            <li class="library">SEO</li>|
+            <li class="library">SSR</li>
+
+            <li class="testing">Jest</li>
+            <li class="testing">Karma</li>
+            <li class="testing">Protractor</li>
+
             <li class="base">HTML</li>
-            <li class="base">CSS</li>
+            <li class="base">SCSS</li>
             <li class="extension">Bootstrap</li>
             <li class="extension">Flexbox</li>
+        
+
             <li class="extension">Websocket</li>
             
             <li class="base">WebGL</li>
@@ -122,8 +149,8 @@ Experienced in <b>Frontend Software Architecture & Design</b> with enthusiasm to
             
             <li class="eco">Docker</li>
             <li class="eco">Git</li>
-            <li class="tool">Webpack</li>
-            <li class="tool">Babel</li>
+            <li class="eco">CI/CD</li>
+
             <li class="team">Jira</li>
             <li class="team">Confluence</li>
             <li class="team">Bitbucket</li>
@@ -576,7 +603,7 @@ Experienced in <b>Frontend Software Architecture & Design</b> with enthusiasm to
     <!-- End #awards -->
 
 
-    <div id="contact">
+    <div id="contact" class = "d-print-none">
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/msqaddura@gmail.com">
@@ -591,7 +618,7 @@ Experienced in <b>Frontend Software Architecture & Design</b> with enthusiasm to
     </div>
     <!-- End #contact -->
 
-    <footer>
+    <footer class="d-print-none"> 
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
